@@ -7,7 +7,16 @@
 3. [Reference list](#reference-list)
 
 ## Description
-## How report is used
+This project features a UiPath automation bot that automates the process of creating records on a web application. It reads data from an Excel spreadsheet, populates web forms on the application, and submits them to create new records. The bot also verifies the success or failure of each record creation and updates the Excel file with the results.
+
+## How app is used
+### Key Features
+
+- **Automated Data Entry**: Extracts data from an Excel file and enters it into the web application.
+- **Form Submission**: Submits the form to create new records.
+- **Record Validation**: Checks whether the records were successfully created.
+- **Test Results Update**: Updates the Excel file with `TRUE` or `FALSE` based on the success of each record's creation.
+- **Reporting**: Provides a detailed test report on the outcomes of the automation process.
 
 ## Reference list
 1. Uipath.com. (2024). UiPath Academy. [online] Available at: https://academy.uipath.com/learningpath-viewer/10931/1/558196/2 [Accessed 5 Sep. 2024].
