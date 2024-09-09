@@ -18,6 +18,20 @@ This project features a UiPath automation bot that automates the process of crea
 - **Test Results Update**: Updates the Excel file with `TRUE` or `FALSE` based on the success of each record's creation.
 - **Reporting**: Provides a detailed test report on the outcomes of the automation process.
 
+### Running the Bot
+
+1. **Launch UiPath Studio**:
+   - Open the project and click **Run** to start the automation process.
+
+2. **Excel Data Processing**:
+   - The bot reads the data from the provided Excel sheet and enters it into the web application to create new records.
+
+3. **Form Submission and Validation**:
+   - For each record, the bot fills out the form, submits it, and then navigates to the confirmation page to verify if the record was successfully created.
+
+4. **Test Results Update**:
+   - The `"Test Results"` column in the Excel file is updated with `TRUE` for successful records and `FALSE` for failures.
+
 ## Reference list
 1. Uipath.com. (2024). UiPath Academy. [online] Available at: https://academy.uipath.com/learningpath-viewer/10931/1/558196/2 [Accessed 5 Sep. 2024].
 2. cloud.contentraven.com. (n.d.). UiPath Academy. [online] Available at: https://academy.uipath.com/learningpath-viewer/11494/1/569153/30 [Accessed 5 Sep 2024].
